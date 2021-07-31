@@ -1,0 +1,4 @@
+"0","read_table(""tabs/tabela.tex"") %>% cat()
+"
+"2","Error in cat(.) : argumento 1 (tipo 'list') não suportado por 'cat'
+"
