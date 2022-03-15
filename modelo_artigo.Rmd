@@ -1,21 +1,16 @@
 ---
 title: "**Título do artigo**"
-
 author:
   - "Autor 1\\thanks{Instituição. E-mail: autor1@xpto.com.}"
   - "Autor 2\\thanks{Instituição. E-mail: autor2@xpto.com.}"
-
 date: "31 de julho de 2021"
-
 abstract: "Seu resumo."
-
 documentclass: article
 papersize: a4
 fontsize: 12pt
 linestretch: 1.5
 geometry: "left = 1.0in, right = 1.0in, top = 1.0in, bottom = 1.0in"
 indent: true
-
 output:
   bookdown::pdf_document2:
     toc: false
@@ -36,16 +31,14 @@ output:
       amsmath: null
       amssymb: null
       amsthm: null
-
 header-includes:
   - \usepackage{floatrow}
   - \floatsetup[figure]{capposition=top}
   - \floatsetup[table]{style=plaintop}
   - \usepackage{hyperref}
-  - \hypersetup{colorlinks=true, urlcolor=blue, linkcolor=blue, citecolor=black, filecolor=black}
-
-bibliography: ref.bib
-csl: abnt.csl
+  - \hypersetup{colorlinks=true, urlcolor=blue, linkcolor=blue, citecolor=blue, filecolor=blue}
+bibliography: "refs/ref.bib"
+csl: "refs/abnt.csl"
 link-citations: true
 nocite: '@*'
 ---
